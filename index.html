@@ -14,6 +14,24 @@
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
       <input type="submit" value="Create New Task">
     </form>
+    
+    <form id="create-task-form">
+      <input type="text" id="new-task-description" placeholder="Task description">
+      <input type="text" id="task-user" placeholder="User">
+      <input type="text" id="task-duration" placeholder="Duration">
+      <input type="date" id="task-due-date">
+      
+      <select id="task-priority">
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+    
+      <input type="submit" value="Add Task">
+    </form>
+    
+    <ul id="tasks"></ul>
+    
 
     <div id="list">
       <h2>My Todos:</h2>
